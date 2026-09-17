@@ -1,0 +1,6 @@
+{
+  "name": "Nicole Vinti Atelier & Image Consulting",
+  "description": "Atelier di alta coiffure, consulenza d'immagine e bridal styling di Nicole Vinti a Gallarate (Varese). Eleganza, total look e hair integration d'eccellenza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
