@@ -30,7 +30,7 @@ export const ChiSiamoPage: React.FC<ChiSiamoPageProps> = ({ onNavigate, onOpenBo
           <div className="lg:col-span-6 relative">
             <div className="rounded-2xl overflow-hidden border border-[#35291b] shadow-2xl relative">
               <img
-                src="/images/nicole-ritratto.jpg"
+                src="/images/Nicole1.jpg"
                 alt="Nicole Vinti Master Hairstylist e Image Consultant"
                 className="w-full h-[600px] object-cover object-center filter contrast-[1.05]"
               />
@@ -191,12 +191,12 @@ export const ChiSiamoPage: React.FC<ChiSiamoPageProps> = ({ onNavigate, onOpenBo
 
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/images/salone.jpg"
+                src="/images/Salone.jpg"
                 alt="Atelier Nicole Vinti Interni"
                 className="rounded-xl border border-[#35291b] object-cover h-64 w-full"
               />
               <img
-                src="/images/taglio-donna.jpg"
+                src="/images/Acconciature01.jpg"
                 alt="Dettaglio Salon Emotion Nicole Vinti"
                 className="rounded-xl border border-[#35291b] object-cover h-64 w-full mt-6"
               />

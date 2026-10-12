@@ -18,9 +18,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenBooking }) => 
           <div className="space-y-4">
             <div className="flex items-center gap-3.5">
               <img 
-                src="/images/logo-white.png" 
+                src="/images/logo.png" 
                 alt="Nicole Vinti Logo" 
-                className="h-12 sm:h-13 w-auto aspect-[454/624] object-contain opacity-95 shrink-0"
+                className="h-10 sm:h-11 w-auto object-contain opacity-95 shrink-0"
               />
               <div>
                 <span className="font-editorial text-2xl tracking-[0.09em] text-[#f5f1ea] block leading-tight">

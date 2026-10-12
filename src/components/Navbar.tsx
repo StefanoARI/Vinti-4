@@ -91,51 +91,51 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Brand Logo & Editorial Typography */}
           <button 
             onClick={() => handleLinkClick('home')}
-            className="flex items-center gap-2.5 sm:gap-3.5 group cursor-pointer text-left shrink-0"
+            className="flex items-center gap-2 sm:gap-3 group cursor-pointer text-left shrink-0"
             id="brand-logo-btn"
           >
             <img 
-              src="/images/logo-white.png" 
+              src="/images/logo.png" 
               alt="Nicole Vinti Haute Coiffure Logo" 
-              className="h-11 sm:h-12 md:h-13 w-auto aspect-[454/624] object-contain shrink-0 select-none drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300" 
+              className="h-7 sm:h-8 md:h-9 w-auto object-contain shrink-0 select-none drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300" 
             />
             <div className="flex flex-col justify-center shrink-0">
-              <span className="block font-editorial text-xl sm:text-2xl md:text-[26px] tracking-[0.08em] sm:tracking-[0.1em] font-normal text-[#f7f4ed] group-hover:text-[#c99f73] transition-colors leading-tight">
+              <span className="block font-editorial text-base sm:text-lg md:text-[20px] tracking-[0.06em] sm:tracking-[0.08em] font-normal text-[#f7f4ed] group-hover:text-[#c99f73] transition-colors leading-tight">
                 NICOLE VINTI
               </span>
-              <span className="block text-[9px] sm:text-[10px] md:text-[10.5px] uppercase tracking-[0.16em] sm:tracking-[0.2em] text-[#c99f73] font-light leading-tight mt-0.5">
+              <span className="block text-[7.5px] sm:text-[8.5px] md:text-[9px] uppercase tracking-[0.14em] sm:tracking-[0.18em] text-[#c99f73] font-light leading-tight mt-0.5">
                 Haute Coiffure &bull; Gallarate
               </span>
             </div>
           </button>
 
           {/* Desktop Navigation Links (Responsive spacing & no-wrap to prevent squishing) */}
-          <div className="hidden lg:flex items-center gap-2 xl:gap-4 2xl:gap-6 shrink-0">
+          <div className="hidden lg:flex items-center gap-1.5 xl:gap-3 2xl:gap-5 shrink-0">
             {/* Home */}
             <button
               onClick={() => handleLinkClick('home')}
-              className={`relative px-2 py-2 text-[12px] xl:text-[13px] uppercase tracking-[0.08em] xl:tracking-[0.11em] font-medium transition-colors whitespace-nowrap ${
+              className={`relative px-1.5 py-2 text-[11.5px] xl:text-[12.5px] uppercase tracking-[0.07em] xl:tracking-[0.1em] font-medium transition-colors whitespace-nowrap ${
                 currentPage === 'home' ? 'text-[#c99f73]' : 'text-[#ded9cf] hover:text-[#c99f73]'
               }`}
               id="nav-home-btn"
             >
               Home
               {currentPage === 'home' && (
-                <span className="absolute bottom-0 left-2 right-2 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
+                <span className="absolute bottom-0 left-1.5 right-1.5 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
               )}
             </button>
 
             {/* Chi Siamo */}
             <button
               onClick={() => handleLinkClick('chi-siamo')}
-              className={`relative px-2 py-2 text-[12px] xl:text-[13px] uppercase tracking-[0.08em] xl:tracking-[0.11em] font-medium transition-colors whitespace-nowrap ${
+              className={`relative px-1.5 py-2 text-[11.5px] xl:text-[12.5px] uppercase tracking-[0.07em] xl:tracking-[0.1em] font-medium transition-colors whitespace-nowrap ${
                 currentPage === 'chi-siamo' ? 'text-[#c99f73]' : 'text-[#ded9cf] hover:text-[#c99f73]'
               }`}
               id="nav-chi-siamo-btn"
             >
               Chi Siamo
               {currentPage === 'chi-siamo' && (
-                <span className="absolute bottom-0 left-2 right-2 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
+                <span className="absolute bottom-0 left-1.5 right-1.5 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
               )}
             </button>
 
@@ -147,7 +147,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               <button
                 onClick={() => handleLinkClick('atelier')}
-                className={`relative flex items-center gap-1 px-2 py-2 text-[12px] xl:text-[13px] uppercase tracking-[0.08em] xl:tracking-[0.11em] font-medium transition-colors whitespace-nowrap ${
+                className={`relative flex items-center gap-1 px-1.5 py-2 text-[11.5px] xl:text-[12.5px] uppercase tracking-[0.07em] xl:tracking-[0.1em] font-medium transition-colors whitespace-nowrap ${
                   currentPage === 'atelier' ? 'text-[#c99f73]' : 'text-[#ded9cf] hover:text-[#c99f73]'
                 }`}
                 id="nav-atelier-btn"
@@ -155,7 +155,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <span>Atelier Capelli</span>
                 <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180 text-[#b88654]" />
                 {currentPage === 'atelier' && (
-                  <span className="absolute bottom-0 left-2 right-2 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
+                  <span className="absolute bottom-0 left-1.5 right-1.5 h-[2px] bg-gradient-to-r from-[#d8b792] via-[#b88654] to-[#97693d] rounded-full" />
                 )}
               </button>
 

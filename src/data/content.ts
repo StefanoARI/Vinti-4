@@ -47,7 +47,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: '€ 95',
     badge: 'Firma di Nicole',
     features: ['Studio morfologico ed espressivo', 'Rituale rilassante cuoio capelluto', 'Finish e styling personalizzato', 'Guida al mantenimento a casa'],
-    image: '/images/hair-styling_2.jpg'
+    image: '/images/Acconciature01.jpg'
   },
   {
     id: 'piega-haute-coiffure',
@@ -68,7 +68,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: '€ 70',
     badge: 'Benessere Olistico',
     features: ['Analisi micro-camera cuoio capelluto', 'Miscela botanica personalizzata', 'Doccia sensoriale con cromoterapia'],
-    image: '/images/banner2-hairbeauty.jpg'
+    image: '/images/Salone.jpg'
   },
 
   // Colore
@@ -81,7 +81,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: '€ 160',
     badge: 'Più Richiesto',
     features: ['Mappatura cromatica individuale', 'Decoloranti a base di oli vegetali protettivi', 'Tonalizzazione Gloss personalizzata', 'Plex rigenerante incorporato'],
-    image: '/images/acc-nicole.jpg'
+    image: '/images/Acconciature02.jpg'
   },
   {
     id: 'colore-puro-biologico',
@@ -91,7 +91,7 @@ export const SERVICES: ServiceItem[] = [
     duration: '75 min',
     priceFrom: '€ 85',
     features: ['Zero pizzicori e formulazione ipoallergenica', 'Pigmenti puri ultra-brillanti', 'Massima durata e riflesso compatto'],
-    image: '/images/hair-beauty-2.jpg'
+    image: '/images/Acconciature03.jpg'
   },
   {
     id: 'french-gloss-degrade',
@@ -101,7 +101,7 @@ export const SERVICES: ServiceItem[] = [
     duration: '110 min',
     priceFrom: '€ 140',
     features: ['Rinnovamento del contrasto naturale', 'Ideale per schiariture a bassa manutenzione', 'Trattamento antiossidante finale'],
-    image: '/images/homepage-banner2.jpg'
+    image: '/images/Acconciature04.jpg'
   },
 
   // Hair Integration
@@ -114,7 +114,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: 'Consulenza Riservata',
     badge: 'Specializzazione Esclusiva',
     features: ['Capelli veri 100% Remy di grado vergine europeo', 'Nessuna trazione sulle radici esistenti', 'Totalmente impercettibile al tatto e alla vista', 'Libertà completa: sport, piscina, mare e raccolti'],
-    image: '/images/extension-capelli.jpg'
+    image: '/images/Acconciature05.jpg'
   },
   {
     id: 'extension-cheratina-haute-couture',
@@ -124,7 +124,7 @@ export const SERVICES: ServiceItem[] = [
     duration: '120-180 min',
     priceFrom: 'Da € 280',
     features: ['Selezione cromatica su campione personalizzato', 'Punti di giunzione microscopici', 'Durata impeccabile da 4 a 6 mesi', 'Kit di spazzolatura e haircare in omaggio'],
-    image: '/images/extension-capelli.jpg'
+    image: '/images/Acconciature06.jpg'
   },
 
   // Sposa & Immagine
@@ -137,7 +137,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: 'Da € 650',
     badge: 'Atelier Sposa VIP',
     features: ['Consulenza di stile totale con Nicole Vinti', '2 prove acconciatura & 2 prove make-up fotografico', 'Trattamento illuminante viso e capello pre-evento', 'Assistenza in location fino al cambio d’abito', 'Acconciatura per la mamma o damigella d’onore'],
-    image: '/images/wedding-acconciatura.jpg'
+    image: '/images/wedding-img5.jpg'
   },
   {
     id: 'consulenza-total-look',
@@ -148,7 +148,7 @@ export const SERVICES: ServiceItem[] = [
     priceFrom: '€ 180',
     badge: 'Metodo Nicole Vinti',
     features: ['Test con drappi professionali e palette digitale', 'Progetto visivo di restyling taglio e colore', 'Dossier personalizzato da portare sempre con sé', 'Consigli pratici su occhiali, gioielli e scollature'],
-    image: '/images/nicole-vinti_2.jpg'
+    image: '/images/Nicole1.jpg'
   }
 ];
 
@@ -162,7 +162,7 @@ export const REVIEWS: ReviewItem[] = [
     treatment: 'Hair Integration & Taglio Bespoke',
     date: 'Ottobre 2025',
     text: 'Nicole Vinti non è semplicemente una parrucchiera, è una scultrice e una vera artista dell’immagine. Dopo anni di ricerche ho trovato in lei la raffinatezza e la privacy che cercavo. L’infoltimento invisibile è indistinguibile e mi ha restituito una sicurezza impagabile. L’Atelier di Gallarate è un santuario di calma ed eleganza.',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80'
+    avatar: '/images/Nicole4.jpg'
   },
   {
     id: 'rev-2',
@@ -173,7 +173,7 @@ export const REVIEWS: ReviewItem[] = [
     treatment: 'Percorso Sposa Royal & Make-Up',
     date: 'Settembre 2025',
     text: 'Per il mio matrimonio a Villa d’Este volevo un’acconciatura regale ma naturale. Nicole ha studiato ogni dettaglio del mio abito in pizzo francese, creando un raccolto morbido che è rimasto perfetto fino all’alba. La sua presenza calma e professionale la mattina del matrimonio è stata una benedizione.',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
+    avatar: '/images/Nicole5.jpg'
   },
   {
     id: 'rev-3',
@@ -184,7 +184,7 @@ export const REVIEWS: ReviewItem[] = [
     treatment: 'Balayage Sartoriale & Total Look',
     date: 'Gennaio 2026',
     text: 'Frequento l’atelier da oltre dieci anni. La maestria cromatica di Nicole non ha rivali: i suoi biondi non virano mai al giallo e la luce che dona al viso è magnetica. La seduta del giovedì sera con calice di bollicine è il mio appuntamento irrinunciabile.',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80'
+    avatar: '/images/Nicole6.jpg'
   },
   {
     id: 'rev-4',
@@ -195,7 +195,7 @@ export const REVIEWS: ReviewItem[] = [
     treatment: 'Taglio Couture & Salon Emotion Ritual',
     date: 'Dicembre 2025',
     text: 'La precisione millimetrica con cui Nicole taglia i capelli ricorda l’alta sartoria milanese. Non segue le mode passeggere, ma valorizza l’unicità di chi ha di fronte. Consiglio vivamente la consulenza d’immagine prima del cambio look.',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80'
+    avatar: '/images/Nicole2.jpg'
   }
 ];
 
@@ -216,7 +216,7 @@ export const COURSES: CourseItem[] = [
     ],
     upcomingDates: ['19-20 Maggio 2026', '22-23 Giugno 2026', '14-15 Settembre 2026'],
     investment: '€ 1.200 + IVA (Max 6 partecipanti)',
-    image: '/images/foto-nicole_1.jpg'
+    image: '/images/Acconciature07.jpg'
   },
   {
     id: 'master-hair-integration',
@@ -234,7 +234,7 @@ export const COURSES: CourseItem[] = [
     ],
     upcomingDates: ['11-13 Ottobre 2026', '15-17 Novembre 2026'],
     investment: '€ 2.400 + IVA (Kit esclusivo incluso, Max 4 partecipanti)',
-    image: '/images/extension-capelli.jpg'
+    image: '/images/Acconciature08.jpg'
   },
   {
     id: 'master-total-look-consulenza',
@@ -252,24 +252,24 @@ export const COURSES: CourseItem[] = [
     ],
     upcomingDates: ['28-29 Settembre 2026', '19-20 Ottobre 2026'],
     investment: '€ 980 + IVA (Drappi armocromia inclusi)',
-    image: '/images/nicole2-banner-about-me.jpg'
+    image: '/images/Nicole2.jpg'
   }
 ];
 
 export const BRIDAL_GALLERY_IMAGES = [
   { url: '/images/wedding-img1.jpg', title: 'Raccolto Scultoreo Imperiale', subtitle: 'Villa Ponti, Varese' },
   { url: '/images/wedding-img2.jpg', title: 'Semiraccolto Ondulato con Tiara', subtitle: 'Grand Hotel Tremezzo, Como' },
-  { url: '/images/wedding-img4.jpg', title: 'Chignon Basso Couture', subtitle: 'Stresa, Lago Maggiore' },
+  { url: '/images/weddinf-img3.jpg', title: 'Chignon Basso Couture', subtitle: 'Stresa, Lago Maggiore' },
   { url: '/images/wedding-img5.jpg', title: 'Onde Romantiche e Punti Luce', subtitle: 'Villa d’Este, Cernobbio' },
   { url: '/images/wedding-img6.jpg', title: 'Intreccio Sartoriale Bohemien Chic', subtitle: 'Milano' },
-  { url: '/images/nicole-sposa2.jpg', title: 'Velo e Acconciatura Eterea', subtitle: 'Atelier Nicole Vinti' }
+  { url: '/images/045.JPG', title: 'Velo e Acconciatura Eterea', subtitle: 'Atelier Nicole Vinti' }
 ];
 
 export const SALON_GALLERY_IMAGES = [
-  { url: '/images/salon-beauty.jpg', title: 'Atelier Salon Emotion', desc: 'Area relax e postazioni riservate a Gallarate' },
-  { url: '/images/award_2014.jpg', title: 'Italian Hairdressing Award 2014', desc: 'Vincitrice Categoria Avant-Garde' },
-  { url: '/images/banner2-hairbeauty.jpg', title: 'Trattamenti Hair Care & Rigenerazione', desc: 'Protocolli di benessere olistico' },
-  { url: '/images/nicole-vinti_2.jpg', title: 'Nicole Vinti all’Opera', desc: 'Oltre 35 anni di maestria e ricerca' }
+  { url: '/images/Salone.jpg', title: 'Atelier Salon Emotion', desc: 'Area relax e postazioni riservate a Gallarate' },
+  { url: '/images/Salone_1.jpg', title: 'Area Accoglienza & Styling', desc: 'Design e comfort sartoriale' },
+  { url: '/images/Salone_3.jpg', title: 'Salone Principal', desc: 'Luci soffuse e privacy assoluta' },
+  { url: '/images/Nicole3.jpg', title: 'Nicole Vinti all’Opera', desc: 'Oltre 35 anni di maestria e ricerca' }
 ];
 
 export const GIFT_CARD_EXPERIENCES = [

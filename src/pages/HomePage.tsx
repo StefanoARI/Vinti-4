@@ -29,7 +29,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
         {/* Background visual with real uploaded atelier image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/salone.jpg"
+            src="/images/Salone.jpg"
             alt="Nicole Vinti Atelier Haute Coiffure Gallarate"
             className="w-full h-full object-cover object-center filter brightness-[0.34] contrast-[1.1] scale-105 transition-transform duration-1000"
           />
@@ -217,7 +217,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
           <div className="group relative rounded-2xl overflow-hidden bg-[#13120f] border border-[#30261b] hover:border-[#b88654]/80 transition-all flex flex-col justify-between">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="/images/atelier-taglio.jpg"
+                src="/images/Acconciature01.jpg"
                 alt="Taglio & Styling Haute Couture Nicole Vinti"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -246,7 +246,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
           <div className="group relative rounded-2xl overflow-hidden bg-[#13120f] border border-[#30261b] hover:border-[#b88654]/80 transition-all flex flex-col justify-between">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="/images/atelier-colore.jpg"
+                src="/images/Acconciature02.jpg"
                 alt="Colore & Balayage Nicole Vinti"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -275,7 +275,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
           <div className="group relative rounded-2xl overflow-hidden bg-[#13120f] border border-[#30261b] hover:border-[#b88654]/80 transition-all flex flex-col justify-between">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="/images/atelier-infoltimento.jpg"
+                src="/images/Acconciature05.jpg"
                 alt="Hair Integration & Infoltimento Nicole Vinti"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -304,7 +304,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenBooking })
           <div className="group relative rounded-2xl overflow-hidden bg-[#13120f] border border-[#30261b] hover:border-[#b88654]/80 transition-all flex flex-col justify-between">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="/images/sposa1.jpg"
+                src="/images/wedding-img5.jpg"
                 alt="Sposa & Immagine Nicole Vinti"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />

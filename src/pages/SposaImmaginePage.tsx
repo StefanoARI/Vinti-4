@@ -83,7 +83,7 @@ export const SposaImmaginePage: React.FC<SposaImmaginePageProps> = ({
           <div className="lg:col-span-6 relative">
             <div className="rounded-3xl overflow-hidden border border-[#35291b] shadow-2xl relative">
               <img
-                src="/images/sposa2.jpg"
+                src="/images/wedding-img2.jpg"
                 alt="Acconciatura Sposa Nicole Vinti Atelier"
                 className="w-full h-[580px] object-cover object-center"
               />
@@ -285,7 +285,7 @@ export const SposaImmaginePage: React.FC<SposaImmaginePageProps> = ({
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-3xl overflow-hidden border border-[#35291b] shadow-2xl relative">
                 <img
-                  src="/images/nicole-ritratto.jpg"
+                  src="/images/Nicole2.jpg"
                   alt="Consulenza Armocromia Nicole Vinti Gallarate"
                   className="w-full h-[540px] object-cover object-center"
                 />
